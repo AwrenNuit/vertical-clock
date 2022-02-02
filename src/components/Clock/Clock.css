@@ -1,0 +1,38 @@
+.time-wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 400px;
+  width: 100%;
+}
+
+.time-row {
+  padding-right: 10px;
+}
+
+.time-row:nth-child(2n) {
+  padding-right: 20px;
+}
+
+.time-row:last-child {
+  padding-right: 0;
+}
+
+.time-fragment {
+  padding-top: 5px;
+  transition: 0.2s;
+}
+
+.time-fragment-inner {
+  align-items: center;
+  background-color: #9ab2d4;
+  display: flex;
+  font-size: 20px;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+
+.active {
+  background-color: rgb(180, 119, 230);
+}
