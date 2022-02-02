@@ -1,3 +1,8 @@
+body {
+  background-color: #1e1735;
+  margin: 0;
+}
+
 .time-wrapper {
   display: flex;
   height: 100vh;
@@ -19,20 +24,35 @@
 }
 
 .time-fragment {
-  padding-top: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
   transition: 0.2s;
+  width: 45px;
 }
 
 .time-fragment-inner {
   align-items: center;
-  background-color: #9ab2d4;
+  background-color: #9ab2d44d;
+  border: 2px solid #9ab2d4;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #9ab2d4;
+  color: #9ab2d4;
   display: flex;
   font-size: 20px;
   height: 30px;
   justify-content: center;
+  transition: 0.2s;
   width: 30px;
 }
 
 .active {
-  background-color: rgb(180, 119, 230);
+  background-color: #b477e62b;
+  border: 2px solid #b477e6;
+  box-shadow: 0 0 10px #b477e6;
+  color: #b477e6;
+  font-size: 28px;
+  height: 40px;
+  width: 40px;
 }

@@ -23,8 +23,8 @@ export default function TimeFragment({ control, digit, id, val }) {
     const onesDigit = control < 10 ? control : +String(control)[1];
     const tensDigit = control < 10 ? 0 : +String(control)[0];
 
-    if (digit === "ones") setMarginTop(onesDigit * -35);
-    if (digit === "tens") setMarginTop(tensDigit * -35);
+    if (digit === "ones") setMarginTop(onesDigit * -44);
+    if (digit === "tens") setMarginTop(tensDigit * -44);
   };
 
   return (
